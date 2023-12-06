@@ -1,0 +1,182 @@
+/* INICIO DE HOME */
+.mercader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.titulo{
+    color: orangered;
+    border: 5px orangered solid;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+/* BOXES HOME */
+.grid-home {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+      "griditem-uno . "
+      " . griditem-dos"; 
+
+}
+.grid-home .griditem-uno{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: griditem-uno;
+}
+
+.grid-home .griditem-uno .gridboxcondimentos{
+    border: 2px solid orangered;
+    width: 300px ;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+.grid-home .griditem-dos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: griditem-dos;
+}
+.grid-home .griditem-dos .gridboxespecias{
+    border: 2px solid orangered;
+    width: 300px ;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+/* TABNAV */
+.box {
+    background-color: chocolate;
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    text-align: center;
+    font-size: 25px;
+
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:saddlebrown;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FIN DEL HOME */
+/* INICIO NOVEDADES */
+/* HEADER */
+.es{
+    height: auto;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: orangered 2px solid;
+    border-radius: 12px;
+}
+.tituloespecias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* BOXES NOVEDADES */
+.flexPadre{
+
+    display: flex;
+    padding: 2px;
+    gap: 15px;
+        
+}
+.flexPadre .flexItem {
+    background-color: peru;
+    border: black 3px solid;
+    width: 100%;
+    height: 450px;
+    color: azure;
+    text-align: center;
+}
+
+
+/* FIN PAGINA NOVEDADES */
+/* INICIO INFORMACION */
+
+
+.boxmercader{
+   width: 500px;   
+   height: auto;
+   border: 1px solid;
+   margin-left: 400px;
+}
+
+.boxrecetas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlerecetas{
+    height: auto;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: orangered 2px solid;
+}
+/* INICIO RECETAS */
+.grid-recetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+}
+.grid-recetas .grid-item{
+    border: 1px black solid;
+    text-align: center;
+    background-color: rgb(250, 140, 100);
+    border-radius: 15px;
+}
+.grid-recetas .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+    display: block;
+}
+.grid-item:hover{
+    background-color: chocolate;
+}
+/* INICIO CONTACTO */
+.containercontac{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 10px;
+}
+.containercontac .boxcontacto{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    border: 2px orangered solid;
+    margin: 10px;
+}
+
+
+    
+
+
+
+
